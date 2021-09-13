@@ -27,9 +27,9 @@ clear()
 def start():
     clear()
     print('')
-    print(f'\n{Iblue}########## ################## ##########')
-    print('####### ### DOWNLOAD PROFILE ### #######')
-    print('########## ################## ##########')
+    print(f'\n{Iblue}############ ###################### ############')
+    print('########## #### DOWNLOAD PROFILE #### ##########')
+    print('############ ###################### ############')
     restart = 'S'
     while restart == 'S':
         # Informações
@@ -42,7 +42,7 @@ def start():
         username = f"{perfil}"
     
         # Baixa os dados do perfil do Insta #
-        print('\n\033[1;33m{:-^62}'.format(f' {Dgreen}==> BAIXANDO PROFILE <=={Nyellow} '))
+        print('\n\033[1;33m{:-^62}'.format(f' {Dgreen}==> DOWNLOAD PROFILE <=={Nyellow} '))
         print('')
         print(bot.download_profile(username, profile_pic_only=True))
         print('')
