@@ -51,6 +51,6 @@ def start():
         print('')
         print(f'\033[1;33m-' * 48)
         restart = str(input(
-            f'\n{Hcyan}Deseja realizar outra consulta S/N?{VRCRM} ')).strip().upper()[
+            f'\n{Hcyan}Deseja selecionar outra conta S/N?{VRCRM} ')).strip().upper()[
             0]
         clear()
