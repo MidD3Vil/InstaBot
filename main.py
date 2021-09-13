@@ -42,7 +42,8 @@ except:
     if install == 'S' or install == '1':
         os.system("apt install figlet -y")
         os.system('python3 -m pip install --upgrade pip')
-        os.system('pip install instaloader && pip install instabot')
+        os.system('pip install instaloader')
+        os.system('pip install instabot')
         clear()
     else:
         print(f'Ok... Tente realizar a instalação manual ou Adeus');
