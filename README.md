@@ -4,6 +4,7 @@
 
 <h2 align="center">💻 | Bot de gerenciamento / stalker de instagram</h2>
 <blockquote>
+    <ul>
     <img src="https://i.ibb.co/GsN63zt/Ascii-Insta-Bot.png" alt="Ascii-Insta-Bot" border="0">
     <li> [x] INSTA STALKER [ VIP OPTION💎 ] </li>
     <li> [x] DOWNLOAD PROFILE </li>
