@@ -25,35 +25,35 @@ clear()
 # BAIXAR POSTS DO INSTAGRAM
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-# def start():
-clear()
-print('')
-print(f'\n{Iblue}########## ################## ##########')
-print('######## ### DOWNLOAD POSTS ### ########')
-print('########## ################## ##########')
-restart = 'S'
-while restart == 'S':
-    # Informações
-    perfil = input(f'\n{Hcyan}Digite o nome do perfil que deseja \n[ respeite maiúsculas/números ] \n>>> ').strip()
-
-    # Carrega a lib e faz login com a conta desejada #
-    print('Buscando...')
-    L = instaloader.Instaloader()
-    L.login('mid_insta_bot', 'mid_pass')
-
-    # Carrega todos os posts do perfil escolhido #
-    posts = instaloader.Profile.from_username(L.context, f"{perfil}").get_posts()
-
-    # Percorre os posts e baixa todos #
-    print('\n\033[1;33m{:-^62}'.format(f' {Dgreen}==> BAIXANDO POSTS <=={Nyellow} '))
-    print('')
-    for post in posts:
-        print(f'Save {post.date} in "insta-posts-downloads"')
-        L.download_post(post, "insta-posts-downloads")
-    print('')
-    print(f'\033[1;33m-' * 48)
-    restart = str(input(
-        f'\n{Hcyan}Deseja postar outra foto S/N?{VRCRM} ')).strip().upper()[0]
+def start():
     clear()
+    print('')
+    print(f'\n{Iblue}########## ################## ##########')
+    print('######## ### DOWNLOAD POSTS ### ########')
+    print('########## ################## ##########')
+    restart = 'S'
+    while restart == 'S':
+        # Informações
+        perfil = input(f'\n{Hcyan}Digite o nome do perfil que deseja \n[ respeite maiúsculas/números ] \n>>> ').strip()
+
+        # Carrega a lib e faz login com a conta desejada #
+        print('Buscando...')
+        L = instaloader.Instaloader()
+        L.login('mid_insta_bot', 'mid_pass')
+
+        # Carrega todos os posts do perfil escolhido #
+        posts = instaloader.Profile.from_username(L.context, f"{perfil}").get_posts()
+
+        # Percorre os posts e baixa todos #
+        print('\n\033[1;33m{:-^62}'.format(f' {Dgreen}==> BAIXANDO POSTS <=={Nyellow} '))
+        print('')
+        for post in posts:
+            print(f'Save {post.date} in "insta-posts-downloads"')
+            L.download_post(post, "insta-posts-downloads")
+        print('')
+        print(f'\033[1;33m-' * 48)
+        restart = str(input(
+            f'\n{Hcyan}Deseja postar outra foto S/N?{VRCRM} ')).strip().upper()[0]
+        clear()
 
 # SINCE = datetime(2021, 1, 16)
