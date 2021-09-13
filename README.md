@@ -13,7 +13,7 @@
     <li> [x] LIST FOLLOWERS </li>
     <li> [x] PUBLISH PHOTOS </li>
 
-Bom, é isso. Espero que gostem...
+    <li> Bom, é isso. Espero que gostem... </li>
 
 ---------------------------------------------------------------------------
 
