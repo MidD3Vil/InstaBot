@@ -1,8 +1,8 @@
-# <h2 align="center">🖥 Insta-Bot by Dr Midnight</h2>
+# <h1 align="center">🖥 Insta-Bot by Dr Midnight</h1>
 
 <hr>
 
-<h1>💻 | Bot de gerenciamento / stalker de instagram</h1>
+<h2>💻 | Bot de gerenciamento / stalker de instagram</h2>
 <blockquote>
   <ul>
     <img src="https://i.ibb.co/GsN63zt/Ascii-Insta-Bot.png" alt="Ascii-Insta-Bot" border="0">
