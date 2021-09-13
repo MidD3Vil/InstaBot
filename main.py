@@ -33,7 +33,7 @@ def restart():
 import os, sys, time, json, subprocess, platform
 
 try:
-    import selenium, instaloader, instabot, instagram_explore
+    import instaloader, instabot
 except:
     install = input(
         f'{Twhite}{Dgreen}[i]{Twhite} Ola! Vejo que esta é sua primeira vez aqui...'
@@ -41,7 +41,7 @@ except:
     if install == 'S' or install == '1':
         os.system("apt install figlet -y")
         os.system('python3 -m pip install --upgrade pip')
-        os.system('pip3 install selenium, instaloader, instabot, instagram_explore')
+        os.system('pip3 install instaloader, instabot')
         clear()
     else:
         print(f'Ok... Tente realizar a instalação manual ou Adeus');
