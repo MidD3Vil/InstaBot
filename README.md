@@ -12,7 +12,7 @@
     <li> [x] DOWNLOAD POSTS </li>
     <li> [x] LIST FOLLOWERS </li>
     <li> [x] PUBLISH PHOTOS </li>
-    <li> [-->] Bom, é isso. Espero que gostem... </li>
+    <li> [X] Bom, é isso. Espero que gostem... </li>
 
 ---------------------------------------------------------------------------
 
