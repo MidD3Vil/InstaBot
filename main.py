@@ -33,7 +33,8 @@ def restart():
 import os, sys, time, json, subprocess, platform
 
 try:
-    import instaloader, instabot
+    import instaloader
+    from instabot import Bot
 except:
     install = input(
         f'{Twhite}{Dgreen}[i]{Twhite} Ola! Vejo que esta é sua primeira vez aqui...'
