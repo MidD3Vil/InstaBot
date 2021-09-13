@@ -45,7 +45,7 @@ def start():
         posts = instaloader.Profile.from_username(L.context, f"{perfil}").get_posts()
 
         # Percorre os posts e baixa todos #
-        print('\n\033[1;33m{:-^62}'.format(f' {Dgreen}==> BAIXANDO POSTS <=={Nyellow} '))
+        print('\n\033[1;33m{:-^62}'.format(f' {Dgreen}==> DOWNLOAD POSTS <=={Nyellow} '))
         print('')
         for post in posts:
             print(f'Save {post.date} in "insta-posts-downloads"')
