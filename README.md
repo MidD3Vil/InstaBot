@@ -5,7 +5,7 @@
 
 <hr>
 
-<h1>💻 | Bot de gerenciamento / stalker de instagram, com funções como:</h1>
+<h1>💻 | Bot de gerenciamento / stalker de instagram</h1>
 <blockquote>
   <ul>
     <img src="https://i.ibb.co/GsN63zt/Ascii-Insta-Bot.png" alt="Ascii-Insta-Bot" border="0">
