@@ -12,7 +12,8 @@
     <li> [x] DOWNLOAD POSTS </li>
     <li> [x] LIST FOLLOWERS </li>
     <li> [x] PUBLISH PHOTOS </li>
-        
+     
+    <ul>
     <li> Bom, é isso. Espero que gostem... </li>
 
 ---------------------------------------------------------------------------
