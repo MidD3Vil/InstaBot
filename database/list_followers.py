@@ -22,7 +22,7 @@ clear()
 # LISTANDO SEGUIDORES INSTAGRAM
 # -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-def consultar():
+def start():
     clear()
     print('')
     print(f'\n{Iblue}########## ################### ##########')
