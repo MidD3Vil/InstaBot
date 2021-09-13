@@ -33,7 +33,7 @@ def restart():
 import os, sys, time, json, subprocess, platform
 
 try:
-    import requests, random, json, phonenumbers
+    import selenium, instaloader, instabot, instagram_explore
 except:
     install = input(
         f'{Twhite}{Dgreen}[i]{Twhite} Ola! Vejo que esta é sua primeira vez aqui...'
