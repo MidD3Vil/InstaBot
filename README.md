@@ -1,7 +1,4 @@
-# <h2 align="center">🖥 Insta-Bot</h2>
-
-<h2 align="center"> Tool by Dr Midnight</h2>
-
+# <h2 align="center">🖥 Insta-Bot by Dr Midnight</h2>
 
 <hr>
 
