@@ -25,7 +25,7 @@
 💻 Termux
 $ pkg upgrade -y && pkg update -y
 $ pkg install git python figlet -y
-$ git clone https://github.com/drmidnightytb/InstaBot
+$ git clone https://github.com/MidD3Vil/InstaBot
 $ cd InstaBot
 $ python3 main.py
 ```
